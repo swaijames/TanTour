@@ -1,0 +1,78 @@
+            body {}
+            
+            .social {
+                float: right;
+                margin-top: -2%;
+            }
+            
+            .navbar {
+                background-color: #15803d;
+                display: block;
+                position: absolute;
+                left: 0px;
+                top: 0px;
+                width: 1280px;
+                height: 130px;
+            }
+            
+            .icon {
+                margin: 2px;
+                text-decoration: none;
+                color: white;
+                text-transform: uppercase;
+            }
+            
+            .icon:hover {
+                color: white;
+                width: 6px;
+            }
+            
+            .logo {
+                width: 9%;
+            }
+            
+            hr {
+                color: white
+            }
+            
+            span {
+                color: white;
+                width: 13px;
+            }
+            
+            #myVideo {
+                width: 100vw;
+                height: 80vh;
+                object-fit: cover;
+                left: 0;
+                right: 0;
+                top: 0;
+                bottom: 0;
+                z-index: -1;
+                margin-left: -0.7%;
+            }
+            
+            .container {
+                margin-top: 10%;
+                height: 100%;
+            }
+            
+            h1,
+            h2 {
+                color: #15803d;
+                font-weight: bold;
+                text-align: center;
+            }
+            
+            h1 {
+                font-size: 6rem;
+                margin-top: 30vh;
+            }
+            
+            h2 {
+                font-size: 3rem;
+            }
+            
+            .content {
+                margin-top: -45%;
+            }
