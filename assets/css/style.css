@@ -9,11 +9,13 @@ body {
     margin-top: -2%;
     color: #DCFCE7;
     font-weight: bold;
+    margin-right: 50px;
 }
 
 .phone {
     color: #DCFCE7;
     font-weight: bold;
+    margin-left: 50px;
 }
 
 .navbar {
@@ -41,6 +43,7 @@ body {
 
 .logo {
     width: 9%;
+    margin-left: 50px;
 }
 
 hr {
