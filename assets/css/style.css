@@ -7,10 +7,12 @@ body {
 .social {
     float: right;
     margin-top: -2%;
+    color: #DCFCE7;
     font-weight: bold;
 }
 
-.mobile {
+.phone {
+    color: #DCFCE7;
     font-weight: bold;
 }
 
@@ -48,41 +50,4 @@ hr {
 span {
     color: #DCFCE7;
     width: 13px;
-}
-
-#myVideo {
-    width: 100vw;
-    height: 80vh;
-    object-fit: cover;
-    left: 0;
-    right: 0;
-    top: -62px;
-    bottom: 0;
-    z-index: 1;
-    margin-left: -0.7%;
-}
-
-.container {
-    margin-top: 8.5%;
-    height: 100%;
-}
-
-h1,
-h2 {
-    color: #15803d;
-    font-weight: bolder;
-    text-align: center;
-}
-
-h1 {
-    font-size: 70px;
-    margin-top: 30vh;
-}
-
-h2 {
-    font-size: 3rem;
-}
-
-.content {
-    margin-top: -45%;
 }

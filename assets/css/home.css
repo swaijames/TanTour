@@ -1,0 +1,53 @@
+
+#myVideo {
+    width: 100vw;
+    height: 90vh;
+    object-fit: cover;
+    /* opacity: 50%; */
+    filter:opacity(40%);
+    left: 0;
+    right: 0;
+    top: -62px;
+    bottom: 0;
+    z-index: 1;
+    margin-left: -0.7%;
+}
+.view-tour{
+    color: #15803d;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 65px;
+    padding-right: 65px;
+    background-color: transparent;
+    border-color: #15803d;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.container {
+    margin-top: 8.5%;
+    height: 100%;
+}
+
+.title1{
+    font-weight: bold;
+}
+
+h1,
+h2 {
+    color: #15803d;
+    font-weight: bolder;
+    text-align: center;
+}
+
+h1 {
+    font-size: 70px;
+    margin-top: 30vh;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+.content {
+    margin-top: -45%;
+}
