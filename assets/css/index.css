@@ -65,14 +65,69 @@
             }
             
             h1 {
-                font-size: 6rem;
-                margin-top: 30vh;
+                font-size: 4rem;
+                margin-top: 35vh;
             }
             
             h2 {
-                font-size: 3rem;
+                font-size: 2rem;
+                /* border: 6px solid black; */
             }
             
             .content {
                 margin-top: -45%;
+            }
+            
+            .why_us {
+                background-color: #dcfce7;
+                padding: 17%;
+                margin-left: -10%;
+                margin-top: -8.5%;
+            }
+            
+            h3 {
+                font-size: 2rem;
+                margin-top: -19%;
+                margin-left: 3%;
+                color: #15803d;
+                text-transform: capitalize;
+            }
+            
+            .column1 {
+                display: block;
+                width: 60%;
+            }
+            
+            .column2 {
+                display: block;
+                width: 60%;
+                margin-left: 5%;
+            }
+            
+            .icon1 {
+                border: 5px solid #15803d;
+                margin-left: 4%;
+                border-radius: 100%;
+                width: 20%;
+                height: 20%;
+            }
+            
+            #icon1 {
+                margin-top: 2%;
+                width: 45%;
+            }
+            
+            #icon2 {
+                margin-top: 2%;
+                width: 45%;
+            }
+            
+            .row {
+                display: flex;
+                flex-grow: 3;
+            }
+            
+            .cont1 {
+                margin-left: 38%;
+                margin-top: -30%;
             }
