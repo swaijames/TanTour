@@ -1,0 +1,133 @@
+            body {}
+            
+            .social {
+                float: right;
+                margin-top: -2%;
+            }
+            
+            .navbar {
+                background-color: #15803d;
+                display: block;
+                position: absolute;
+                left: 0px;
+                top: 0px;
+                width: 1280px;
+                height: 130px;
+            }
+            
+            .icon {
+                margin: 2px;
+                text-decoration: none;
+                color: white;
+                text-transform: uppercase;
+            }
+            
+            .icon:hover {
+                color: white;
+                width: 6px;
+            }
+            
+            .logo {
+                width: 9%;
+            }
+            
+            hr {
+                color: white
+            }
+            
+            span {
+                color: white;
+                width: 13px;
+            }
+            
+            #myVideo {
+                width: 100vw;
+                height: 80vh;
+                object-fit: cover;
+                left: 0;
+                right: 0;
+                top: 0;
+                bottom: 0;
+                z-index: -1;
+                margin-left: -0.7%;
+            }
+            
+            .container {
+                margin-top: 10%;
+                height: 100%;
+            }
+            
+            h1,
+            h2 {
+                color: #15803d;
+                font-weight: bold;
+                text-align: center;
+            }
+            
+            h1 {
+                font-size: 4rem;
+                margin-top: 35vh;
+            }
+            
+            h2 {
+                font-size: 2rem;
+                /* border: 6px solid black; */
+            }
+            
+            .content {
+                margin-top: -45%;
+            }
+            
+            .why_us {
+                background-color: #dcfce7;
+                padding: 17%;
+                margin-left: -10%;
+                margin-top: -8.5%;
+            }
+            
+            h3 {
+                font-size: 2rem;
+                margin-top: -19%;
+                margin-left: 3%;
+                color: #15803d;
+                text-transform: capitalize;
+            }
+            
+            .column1 {
+                display: block;
+                width: 60%;
+            }
+            
+            .column2 {
+                display: block;
+                width: 60%;
+                margin-left: 5%;
+            }
+            
+            .icon1 {
+                border: 5px solid #15803d;
+                margin-left: 4%;
+                border-radius: 100%;
+                width: 20%;
+                height: 20%;
+            }
+            
+            #icon1 {
+                margin-top: 2%;
+                width: 45%;
+            }
+            
+            #icon2 {
+                margin-top: 2%;
+                width: 45%;
+            }
+            
+            .row {
+                display: flex;
+                flex-grow: 3;
+            }
+            
+            .cont1 {
+                margin-left: 38%;
+                margin-top: -30%;
+            }

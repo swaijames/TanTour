@@ -1,18 +1,19 @@
-
 #myVideo {
-    width: 100vw;
+    width: 101.3%;
     height: 90vh;
     object-fit: cover;
     /* opacity: 50%; */
-    /* filter:opacity(40%); */
+    filter: opacity(40%);
     left: 0;
     right: 0;
     top: -62px;
     bottom: 0;
     z-index: 1;
     margin-left: -0.7%;
+    margin-top: 1.9%;
 }
-.view-tour{
+
+.view-tour {
     color: #15803d;
     padding-top: 15px;
     padding-bottom: 15px;
@@ -22,14 +23,15 @@
     border-color: #15803d;
     border-radius: 3px;
     cursor: pointer;
-    margin-left: 45%;
+    margin-left: 40%;
 }
+
 .container {
     margin-top: 8.5%;
     height: 100%;
 }
 
-.title1{
+.title1 {
     font-weight: bold;
 }
 
@@ -51,9 +53,112 @@ h2 {
 
 .content {
     margin-top: -45%;
-    background-color: #DCFCE7;
 }
 
-/* .home-cont{
-    background-color: #DCFCE7;
-} */
+.why_us {
+    background-color: #dcfce7;
+    padding: 17%;
+    margin-left: -14%;
+    margin-top: 2.5%;
+}
+
+.h3 {
+    font-size: 2rem;
+    margin-top: -19%;
+    margin-left: 3%;
+    color: #15803d;
+    text-transform: capitalize;
+    font-weight: bolder(2rem);
+}
+
+.column1 {
+    display: block;
+    width: 60%;
+}
+
+.column2 {
+    display: block;
+    width: 60%;
+    margin-left: 5%;
+}
+
+.icon1 {
+    border: 5px solid #15803d;
+    margin-left: 4%;
+    border-radius: 100%;
+    width: 30%;
+    height: 31%;
+    text-align: center;
+    margin-top: 2%;
+}
+
+.row {
+    display: flex;
+    flex-grow: 3;
+    margin-right: 10%;
+}
+
+.cont1 {
+    margin-left: 43%;
+    margin-top: -35%;
+}
+
+h4 {
+    color: #15803d;
+    text-transform: capitalize;
+    font-size: 18px;
+}
+
+.p1 {
+    margin-top: -6%;
+}
+
+.svgicon {
+    width: 60%;
+    margin-top: 19%;
+    /* margin-left: 20%; */
+}
+
+.contactus {
+    background-color: #15803d;
+    margin-left: 95%;
+    text-align: center;
+    /* padding-left: 10%; */
+    margin-top: -39%;
+    width: 24%;
+    height: 60%;
+    border-radius: 4%;
+}
+
+h5 {
+    color: azure;
+    font-size: 25px;
+}
+
+.input {
+    width: 85%;
+    height: 7%;
+    margin: 5%;
+    border-radius: 3%;
+    border: none;
+}
+
+.input::placeholder {
+    text-align: center;
+    color: #15803d;
+}
+
+.btn {
+    margin-top: 3%;
+    width: 70%;
+    height: 8%;
+    color: #15803d;
+    background-color: #dcfce7;
+    cursor: pointer;
+}
+
+.p {
+    margin-top: -2%;
+    color: aliceblue;
+    font-size: 16px;
+}
