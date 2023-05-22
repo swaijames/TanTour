@@ -4,7 +4,7 @@
     height: 90vh;
     object-fit: cover;
     /* opacity: 50%; */
-    filter:opacity(40%);
+    /* filter:opacity(40%); */
     left: 0;
     right: 0;
     top: -62px;
@@ -51,4 +51,9 @@ h2 {
 
 .content {
     margin-top: -45%;
+    background-color: #DCFCE7;
 }
+
+/* .home-cont{
+    background-color: #DCFCE7;
+} */
