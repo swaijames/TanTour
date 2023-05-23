@@ -124,10 +124,10 @@ h4 {
     margin-left: 95%;
     text-align: center;
     /* padding-left: 10%; */
-    margin-top: -39%;
+    margin-top: -35%;
     width: 24%;
     height: 60%;
-    border-radius: 4%;
+    border-radius: 3%;
 }
 
 h5 {
@@ -135,12 +135,26 @@ h5 {
     font-size: 25px;
 }
 
-.input {
+
+/* .input {
     width: 85%;
     height: 7%;
     margin: 5%;
-    border-radius: 3%;
+    border-radius: 2.5%;
     border: none;
+} */
+
+input[type=text],
+[type=email],
+select,
+textarea {
+    width: 87%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    margin: 2%;
 }
 
 .input::placeholder {
@@ -148,17 +162,142 @@ h5 {
     color: #15803d;
 }
 
-.btn {
-    margin-top: 3%;
-    width: 70%;
-    height: 8%;
-    color: #15803d;
-    background-color: #dcfce7;
+input[type=submit] {
+    width: 87%;
+    background-color: #f4592e;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
     cursor: pointer;
+    float: center;
+    margin-top: 2%;
 }
 
 .p {
     margin-top: -2%;
     color: aliceblue;
     font-size: 16px;
+}
+
+.column {
+    float: center;
+    width: 20%;
+    height: 10%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+    margin-left: 2%;
+}
+
+@media screen and (max-width: 650px) {
+    .column {
+        width: 100%;
+        display: block;
+    }
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    height: 100%;
+    border-radius: 5px;
+    background-color: #15803d;
+}
+
+.container-card {
+    padding: 0 7px;
+}
+
+.teamimg {
+    height: 50%;
+    border-radius: 4px;
+}
+
+.tourdescr {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.row-card {
+    display: flex;
+    margin-left: 4%;
+    margin-top: 4%;
+}
+
+.container-card::after,
+.row-card::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.button {
+    border: 3px solid white;
+    border-radius: 8px;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: transparent;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+}
+
+.button:hover {
+    border: 4px solid white;
+}
+
+.popular_tour {
+    font-size: 22px;
+    margin-top: -10%;
+    text-transform: capitalize;
+}
+
+.descrtour {
+    color: white;
+}
+
+.arrow_icon {
+    float: right;
+}
+
+.tourtype {
+    background-color: #15803d;
+    padding: 10%;
+    margin-top: 5%;
+}
+
+.tour {
+    font-size: 22px;
+    color: white;
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: -10%;
+}
+
+.rowtype {
+    display: flex;
+    margin-left: -3%;
+    margin-top: 5%;
+}
+
+.col_type {
+    background-color: transparent;
+    border: 3px solid white;
+    border-radius: 55%;
+    width: 20%;
+    /* height: 15%; */
+    margin-bottom: 16px;
+    padding: 35px;
+    margin-left: 5%;
+    text-align: center;
+}
+
+.tour_icon_type {
+    width: 70%;
+}
+
+.ptype {
+    text-transform: uppercase;
+    color: #dcfce7;
 }
