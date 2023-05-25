@@ -47,34 +47,62 @@
     </div>
     
     </div>
-    <hr class="container-content">
-        <div class="card1">
-            <div class="left-side">
-                <div class="card1">
-                    <div class="left-card">
-                        <button type="button" class="collapsible">Mission</button>
-                        <div class="content">
-                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                        </div>
-                        <button type="button" class="collapsible">Vision</button>
-                        <div class="content">
-                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                        </div>
-                        <button type="button" class="collapsible">Inspiration</button>
-                        <div class="content">
-                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                        </div>
-                    </div>
-                    <div class="left-card">
-            
-                    </div>
-                </div>
-            <script src="assets/js/script.js"></script>
-            </div>
+<div class="conteiner-content">
+    <div class="left-side">
+        <button class="collapse-button" onclick="toggleCollapse(1)">Mission</button>
+        <div id="collapse-content-1" class="collapse-content">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde, ut! Iure sapiente dicta optio? 
+          Reprehenderit accusantium nulla assumenda aut quas ab ipsum, harum expedita accusamus illo officia, quidem ullam. Obcaecati!
         </div>
-        
-    </div>
-    <div class="vl"></div>
+      
+        <button class="collapse-button" onclick="toggleCollapse(2)">Vision</button>
+        <div id="collapse-content-2" class="collapse-content">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Error nostrum totam sunt tenetur. Totam aspernatur voluptatem, magnam eveniet 
+          culpa odit dicta deserunt, facere, nulla voluptatibus corporis nesciunt ex praesentium exercitationem.
+        </div>
+      
+        <button class="collapse-button" onclick="toggleCollapse(3)">Inspiration</button>
+        <div id="collapse-content-3" class="collapse-content">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Est voluptas esse rerum, minima quaerat doloremque illo sequi? Repellat voluptates, 
+          perspiciatis cum tempora voluptatibus eius maxime atque optio, in blanditiis quidem.
+        </div>
+      </div>
+      <div class="right-side">
+        <div class="slideshow-container">
+            <div class="slide">
+              <img src="assets/image/about-image/image1.jpg" alt="Image 1">
+            </div>
+            <div class="slide">
+              <img src="assets/image/about-image/image2.jpg" alt="Image 2">
+            </div>
+            <div class="slide">
+              <img src="assets/image/about-image/image3.jpg" alt="Image 3">
+            </div>
+          </div>
+      </div>
+</div>
+
+<div class="contact-form">
+    <h2>Contact Us</h2>
+    <form>
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div class="form-group">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+      </div>
+      <div class="form-group">
+        <button type="submit">Submit</button>
+      </div>
+    </form>
+  </div>
+    <script src="assets/js/script.js"></script>
 </body>
 
 </html>

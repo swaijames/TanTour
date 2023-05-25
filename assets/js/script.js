@@ -1,14 +1,19 @@
-var coll = document.getElementsByClassName("collapsible");
-var i;
+function toggleCollapse(collapseNum) {
+    var content = document.getElementById('collapse-content-' + collapseNum);
+    content.classList.toggle('show');
+  }
+var slides = document.getElementsByClassName('slide');
+var currentSlideIndex = 0;
 
-for (i = 0; i < coll.length; i++) {
-  coll[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var content = this.nextElementSibling;
-    if (content.style.display === "block") {
-      content.style.display = "none";
-    } else {
-      content.style.display = "block";
-    }
-  });
+// Show the first slide
+slides[currentSlideIndex].classList.add('active');
+
+// Function to switch to the next slide
+function nextSlide() {
+  slides[currentSlideIndex].classList.remove('active');
+  currentSlideIndex = (currentSlideIndex + 1) % slides.length;
+  slides[currentSlideIndex].classList.add('active');
 }
+
+// Automatically switch to the next slide every 3 seconds
+setInterval(nextSlide, 3000);
