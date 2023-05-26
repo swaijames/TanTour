@@ -21,7 +21,7 @@ body {
 .navbar {
     background-color: #15803d;
     display: block;
-    position: absolute;
+    position: fixed;
     left: 0px;
     right: 0px;
     top: 0px;
@@ -53,4 +53,138 @@ hr {
 span {
     color: #DCFCE7;
     width: 13px;
+}
+
+.content{
+    background-image: url(../image/background_image/about-bg.jpg);
+    background-size: cover;
+    /* opacity: 80%; */
+    object-fit: cover;
+    background-repeat: no-repeat;
+}
+
+.title1{
+    padding-top: 10%;
+    padding-bottom: 10%;
+    text-align: center;
+    color: #15803d;
+    /* margin-top: 62px; */
+    background-color: #DCFCE7;
+    opacity: 70%;
+    font-weight: bold;
+    margin-top: 10.3%;
+}
+
+
+footer {
+    background-color: #15803d;
+    padding: 7%;
+}
+
+.rowfooter {
+    display: flex;
+    flex-direction: row;
+    margin-top: -5%;
+    justify-content: space-between;
+}
+
+.aboutcol {
+    width: 30%;
+}
+
+.tourcol {
+    width: 30%;
+    text-align: center;
+}
+
+.contactuscol {
+    width: 30%;
+}
+
+.aboutus_h {
+    font-size: 22px;
+    color: #dcfce7;
+    font-weight: bolder;
+}
+
+.contactus_p {
+    font-size: 15px;
+    font-weight: bolder;
+    color: #dcfce7;
+    margin-left: 20%;
+}
+
+.aboutus_p {
+    font-size: 15px;
+    font-weight: bolder;
+    color: #dcfce7;
+}
+
+.contactus_h {
+    text-align: center;
+    font-size: 22px;
+    color: #dcfce7;
+    font-weight: bolder;
+}
+
+.footer_image {
+    border-radius: 5%;
+    margin-left: 25%;
+}
+
+.footericon {
+    font-size: 22px;
+    color: #dcfce7;
+    font-weight: bolder;
+}
+
+.logo_footer {
+    width: 40%;
+    margin-top: 15%;
+}
+
+.img_footer {
+    width: 80%;
+}
+
+.bottom {
+    font-size: 15px;
+    color: #dcfce7;
+    font-weight: bolder;
+    text-align: center;
+}
+
+@media (max-width: 320px) {
+    /* smartphones, iPhone, portrait 480x320 phones */
+    .row,
+    .rowtype {
+        flex-direction: column;
+        text-align: center;
+        margin-left: 5%;
+    }
+    .column-dest {
+        width: 100%;
+        display: block;
+        float: center;
+    }
+    .col_type {
+        margin-left: 20%;
+        text-align: center;
+    }
+}
+
+@media (min-width:481px) {
+    /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+}
+
+@media (min-width:641px) {
+    /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+}
+
+@media (min-width:961px) {
+    /* tablet, landscape iPad, lo-res laptops ands desktops */
+}
+
+@media (min-width:1025px) {
+    /* big landscape tablets, laptops, and desktops */
 }

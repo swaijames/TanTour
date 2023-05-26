@@ -1,0 +1,65 @@
+
+.tourdescr {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #DCFCE7;
+}
+
+.row-card {
+    display: flex;
+    margin-left: 4%;
+    margin-top: 10%;
+}
+
+.container-card::after,
+.row-card::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.button {
+    border: 2px solid #DCFCE7;
+    border-radius: 8px;
+    display: inline-block;
+    padding: 8px;
+    color: #DCFCE7;
+    background-color: transparent;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+}
+
+.button:hover {
+    border: 2px solid #DCFCE7;
+    background-color: #DCFCE7;
+    color: #15803d;
+}
+
+.popular_tour {
+    font-size: 22px;
+    margin-top: -10%;
+    text-transform: capitalize;
+}
+
+.descrtour {
+    color: #DCFCE7;
+}
+
+.arrow_icon {
+    float: right;
+}
+
+.tourtype {
+    background-color: #15803d;
+    padding: 10%;
+    margin-top: 5%;
+}
+
+.tour {
+    font-size: 22px;
+    color: #DCFCE7;
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: -10%;
+}
