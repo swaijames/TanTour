@@ -165,7 +165,7 @@ textarea {
 input[type=submit] {
     width: 87%;
     background-color: #f4592e;
-    color: white;
+    color: #DCFCE7;
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
@@ -215,7 +215,7 @@ input[type=submit] {
 .tourdescr {
     font-size: 20px;
     text-transform: uppercase;
-    color: white;
+    color: #DCFCE7;
 }
 
 .row-card {
@@ -232,11 +232,11 @@ input[type=submit] {
 }
 
 .button {
-    border: 3px solid white;
+    border: 2px solid #DCFCE7;
     border-radius: 8px;
     display: inline-block;
     padding: 8px;
-    color: white;
+    color: #DCFCE7;
     background-color: transparent;
     text-align: center;
     cursor: pointer;
@@ -244,7 +244,9 @@ input[type=submit] {
 }
 
 .button:hover {
-    border: 4px solid white;
+    border: 2px solid #DCFCE7;
+    background-color: #DCFCE7;
+    color: #15803d;
 }
 
 .popular_tour {
@@ -254,7 +256,7 @@ input[type=submit] {
 }
 
 .descrtour {
-    color: white;
+    color: #DCFCE7;
 }
 
 .arrow_icon {
@@ -269,7 +271,7 @@ input[type=submit] {
 
 .tour {
     font-size: 22px;
-    color: white;
+    color: #DCFCE7;
     text-align: center;
     text-transform: capitalize;
     margin-top: -10%;
@@ -283,7 +285,7 @@ input[type=submit] {
 
 .col_type {
     background-color: transparent;
-    border: 3px solid white;
+    border: 2px solid #DCFCE7;
     border-radius: 55%;
     width: 20%;
     /* height: 15%; */
