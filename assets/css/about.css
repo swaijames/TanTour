@@ -7,23 +7,35 @@
     width: 40%;
     padding: 2%;
     border-radius: 1%;
+    text-align: center;
 }
 
 .collapse-button{
-    background-color: #DCFCE7;
+  text-align: center;
+    background-color: #15803d;
+    max-width: 60%;
+    color: #DCFCE7;
+    font-weight: bold;
     padding-top: 12px;
     padding-bottom: 12px;
-    padding-left: 40% !important;
-    padding-right: 45%;
+    padding-left: 40%;
+    padding-right: 40%;
     margin-top: 20px;
-    border: none;
+    border: 1px solid #DCFCE7;
+    /* border-color: #DCFCE7; */
     border-radius: 5px;
+    cursor: pointer;
+}
+
+.collapse-button:hover{
+  background-color: #DCFCE7;
+  color: #45a049;
 }
 .collapse-content {
     display: none;
     width: 97%;
     padding: 10px;
-    background-color: #f2f2f2;
+    background-color: #DCFCE7;
     margin-top: 10px;
   }
   
@@ -127,12 +139,15 @@
   
   .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    text-align: center;
+    border-radius: 8px;
   }
-/*   
-  .container {
-    padding: 0 16px;
+  
+  .container-det {
+    padding: 10px 16px;
+    text-align: center;
   }
-   */
+  
   .container::after, .row::after {
     content: "";
     clear: both;
@@ -161,4 +176,8 @@
     border: 1px solid #45a049;
     color: #4CAF50;
 
+  }
+
+  .map{
+    margin-top: 7%;
   }
