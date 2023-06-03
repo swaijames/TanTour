@@ -1,0 +1,300 @@
+
+
+.container {
+    margin-top: 8.5%;
+    height: 100%;
+}
+
+
+
+h1,
+h2 {
+    color: #15803d;
+    font-weight: bolder;
+    text-align: center;
+}
+
+h1 {
+    font-size: 70px;
+    margin-top: 30vh;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+
+.p {
+margin-top: -2%;
+color: aliceblue;
+font-size: 16px;
+}
+
+
+.row-card {
+display: flex;
+margin-left: 4%;
+margin-top: 4%;
+}
+
+.container-card::after,
+.row-card::after {
+content: "";
+clear: both;
+display: table;
+}
+
+.button {
+border: 1px solid #DCFCE7;
+border-radius: 8px;
+display: inline-block;
+padding: 8px;
+color: #DCFCE7;
+background-color: transparent;
+text-align: center;
+cursor: pointer;
+width: 100%;
+}
+
+.button:hover {
+border: 1px solid #DCFCE7;
+background-color: #DCFCE7;
+color: #15803d;
+}
+
+.popular_tour {
+font-size: 22px;
+margin-top: -10%;
+text-transform: capitalize;
+}
+
+.descrtour {
+color: #DCFCE7;
+}
+
+.arrow_icon {
+float: right;
+}
+
+.tourtype {
+background-color: #15803d;
+padding: 10%;
+margin-top: 5%;
+}
+
+.tour {
+font-size: 22px;
+color: #DCFCE7;
+text-align: center;
+text-transform: capitalize;
+margin-top: -10%;
+}
+
+
+
+.col_type {
+background-color: transparent;
+border: 1px solid #DCFCE7;
+border-radius: 55%;
+width: 20%;
+/* height: 15%; */
+margin-bottom: 16px;
+padding: 35px;
+margin-left: 5%;
+text-align: center;
+}
+
+.tour_icon_type {
+width: 70%;
+}
+
+.ptype {
+text-transform: uppercase;
+color: #dcfce7;
+}
+
+input[type=text],
+[type=email],
+select,
+textarea {
+    width: 87%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    margin: 2%;
+}
+
+.input::placeholder {
+    text-align: center;
+    color: #15803d;
+}
+
+input[type=submit] {
+    width: 87%;
+    background-color: #f4592e;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: center;
+    margin-top: 2%;
+}
+
+.p {
+    margin-top: -2%;
+    color: aliceblue;
+    font-size: 16px;
+}
+
+.column {
+    float: center;
+    width: 20%;
+    height: 15%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+    margin-left: 2%;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    height: 105%;
+    border-radius: 5px;
+    background-color: #15803d;
+}
+
+.container-card {
+    padding: 10px;
+}
+
+.teamimg {
+    height: 50%;
+    border-radius: 4px;
+}
+
+.tourdescr {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.row-card {
+    display: flex;
+    margin-left: 4%;
+    margin-top: 4%;
+}
+
+.row-card-dest {
+    display: flex;
+    margin-left: 4%;
+    margin-top: 4%;
+}
+
+.container-card::after,
+.row-card-dest::after .row-card::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.button {
+    border: 1px solid white;
+    border-radius: 8px;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: transparent;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+}
+
+.button:hover {
+    border: 4px solid white;
+}
+
+.popular_tour,
+.h_destnation {
+    font-size: 22px;
+    margin-top: -10%;
+    text-transform: capitalize;
+}
+
+.descrtour {
+    color: white;
+}
+
+.arrow_icon {
+    float: right;
+}
+
+.tourtype {
+    background-image: url(../image/background_image/backq.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #15803d;
+    padding: 10%;
+    margin-top: 5%;
+}
+
+.tour {
+    font-size: 22px;
+    color: white;
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: -10%;
+}
+
+.rowtype {
+    display: flex;
+    margin-left: -3%;
+    margin-top: 5%;
+}
+
+.col_type {
+    background-color: transparent;
+    border: 3px solid white;
+    border-radius: 55%;
+    width: 20%;
+    /* height: 15%; */
+    margin-bottom: 16px;
+    padding: 35px;
+    margin-left: 5%;
+    text-align: center;
+}
+
+.tour_icon_type {
+    width: 70%;
+}
+
+.ptype {
+    text-transform: uppercase;
+    color: #dcfce7;
+}
+
+.dest {
+    margin-top: 15%;
+    margin-left: -2.5%;
+}
+
+.destimg {
+    width: 100%;
+    border-radius: 5%;
+}
+
+.destimg:hover {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+.column-dest {
+    margin: 3%;
+}
+
+@media (min-width:1281px) {
+    /* hi-res laptops and desktops */
+}
