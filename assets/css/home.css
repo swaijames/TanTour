@@ -140,7 +140,9 @@
     }
     
     h5 {
-        color: azure;
+        color: #DCFCE7;
+        /* margin-top: 0%; */
+        padding-top: 8%;
         font-size: 25px;
     }
     /* .input {
@@ -181,11 +183,11 @@ input[type=submit] {
     margin-top: 2%;
 }
 
-.p {
-    margin-top: -2%;
+/* .p {
+    margin-top: 0%;
     color: aliceblue;
     font-size: 16px;
-}
+} */
 
 .column {
     float: center;
@@ -312,16 +314,17 @@ input[type=submit] {
 }
     
     input[type=text],
-    [type=email],
+    [type=email],[type=date],
     select,
     textarea {
         width: 87%;
         padding: 12px;
         border: 1px solid #ccc;
         border-radius: 4px;
-        box-sizing: border-box;
-        resize: vertical;
+        /* box-sizing: border-box; */
+        /* resize: vertical; */
         margin: 2%;
+        outline: none;
     }
     
     .input::placeholder {
@@ -333,7 +336,7 @@ input[type=submit] {
         width: 87%;
         background-color: #f4592e;
         color: white;
-        padding: 12px 20px;
+        padding: 12px 20px 0px 10px;
         border: none;
         border-radius: 4px;
         cursor: pointer;
@@ -342,8 +345,8 @@ input[type=submit] {
     }
     
     .p {
-        margin-top: -2%;
-        color: aliceblue;
+        /* margin-top: -2%; */
+        color: #DCFCE7;
         font-size: 16px;
     }
     
