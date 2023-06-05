@@ -767,7 +767,7 @@
         }
     }
     
-    @media screen and (max-width:900px) and (min-width:600px) {
+    @media screen and (max-width: 900px) and (min-width: 600px) and (orientation: portrait) {
         .row,
         .rowtype {
             flex-direction: row;
@@ -784,7 +784,7 @@
             text-align: center;
         }
         #myVideo {
-            width: 105%;
+            width: 137%;
             height: 59vh;
             object-fit: cover;
             /* opacity: 50%; */
@@ -806,7 +806,7 @@
             border-color: #15803d;
             border-radius: 3px;
             cursor: pointer;
-            margin-left: 38%;
+            margin-left: 30%;
         }
         .container {
             margin-top: 8.5%;
@@ -831,50 +831,47 @@
         }
         .content {
             margin-top: -100%;
+            margin-left: 40%;
         }
         .why_us {
             background-color: #dcfce7;
             padding: 17%;
-            margin-left: -14%;
+            width: 100%;
+            margin-left: 2%;
             margin-top: -45%;
         }
         .h3 {
             font-size: 2rem;
             margin-left: 5%;
-            margin-top: -19%;
+            margin-top: -12%;
             color: #15803d;
             text-align: center;
             font-weight: bolder(3rem);
         }
         .column1 {
             display: block;
-            width: 60%;
-        }
-        .column2 {
-            display: block;
-            width: 60%;
-            margin-left: 5%;
+            width: 100%;
         }
         .icon1 {
             border: 5px solid #15803d;
-            margin-left: 50%;
+            margin-left: 20%;
             border-radius: 100%;
-            width: 30%;
-            height: 17%;
-            padding: 12%;
+            width: 35%;
+            height: 23%;
+            padding: 15%;
             text-align: center;
             margin-top: 2%;
         }
         .row {
             display: flex;
             flex-grow: 3;
-            margin-right: 10%;
+            margin-left: -4%;
         }
         .cont1 {
-            margin-left: 30%;
+            margin-left: 10%;
             height: 40%;
             width: 100%;
-            margin-top: -10%;
+            margin-top: -5%;
         }
         h4 {
             color: #15803d;
@@ -895,8 +892,8 @@
             text-align: center;
             /* padding-left: 10%; */
             margin-top: 2%;
-            width: 80%;
-            height: 40%;
+            width: 50%;
+            height: 45%;
             border-radius: 3%;
         }
         h5 {
@@ -950,11 +947,12 @@
             height: 15%;
             margin-bottom: 20px;
             padding: 0 8px;
-            margin-left: 0%;
+            margin-left: 2%;
         }
         .card {
             box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
             height: 105%;
+            margin: 2px;
             border-radius: 5px;
             background-color: #15803d;
         }
@@ -973,11 +971,12 @@
         .row-card {
             flex-direction: row;
             margin-left: 4%;
-            margin-top: 4%;
+            width: 120%;
+            padding: 5%;
         }
         .row-card-dest {
             flex-direction: row;
-            margin-left: 1%;
+            margin-left: 5%;
             margin-top: 4%;
         }
         .container-card::after,
@@ -1015,7 +1014,7 @@
         }
         .tourtype {
             background-color: #15803d;
-            width: 100%;
+            width: 116%;
             margin-top: 5%;
         }
         .tour {
@@ -1023,7 +1022,7 @@
             color: white;
             text-align: center;
             text-transform: capitalize;
-            margin-top: -10%;
+            margin-top: -6%;
         }
         .rowtype {
             flex-direction: row;
@@ -1037,8 +1036,8 @@
             width: 50%;
             /* height: 15%; */
             margin-bottom: 16px;
-            padding: 35px;
-            margin-left: 15%;
+            padding: 20px;
+            margin-left: 6%;
             text-align: center;
         }
         .tour_icon_type {
@@ -1050,10 +1049,11 @@
         }
         .dest {
             margin-top: 15%;
-            margin-left: -2.5%;
+            margin-left: 2%;
+            width: 116%;
         }
         .destimg {
-            width: 100%;
+            width: 110%;
             border-radius: 5%;
         }
         .destimg:hover {
@@ -1063,11 +1063,11 @@
             transition: .3s ease-in-out;
         }
         .column-dest {
-            margin: 3%;
+            margin-left: 2%;
         }
         footer {
             background-color: #15803d;
-            padding: 7%;
+            width: 122%;
         }
         .rowfooter {
             display: flex;
