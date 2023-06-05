@@ -1,0 +1,243 @@
+    .hotel_beach_content {
+        width: fit-content;
+        height: fit-content;
+    }
+    
+    .hotel_row {
+        display: flex;
+        flex-direction: row;
+        flex-basis: content;
+    }
+    
+    .col_img {
+        width: 50%;
+        margin: 2%;
+        height: 50%;
+        margin-top: -4%;
+    }
+    
+    .col_details {
+        width: 50%;
+        height: 50%;
+        margin: 2%;
+    }
+    
+    .hotel_image {
+        width: 90%;
+        margin-left: 3%;
+        margin-top: -10%;
+    }
+    
+    .hotel_head {
+        font-size: 25px;
+        text-align: left;
+        margin-left: 3%;
+    }
+    
+    .p_head {
+        font-size: 20px;
+        color: #15803d;
+        border: 2px solid black;
+        border-radius: 4px;
+        width: 39%;
+        padding: 3px;
+        text-transform: capitalize;
+        border-right: none;
+    }
+    
+    #span {
+        font-size: 20px;
+        color: white;
+        background-color: #15803d;
+        width: 20%;
+        padding-right: -3%;
+        text-transform: capitalize;
+    }
+    
+    .p_details {
+        text-transform: capitalize;
+        text-align: justify;
+    }
+    
+    .row_tour_guider {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .col_tour_guider {
+        background-color: #15803d;
+        margin: 3%;
+        width: 50%;
+        height: 45%;
+        text-align: center;
+    }
+    
+    .guider-image1 {
+        width: 35%;
+        height: 20%;
+        border-radius: 50%;
+        margin-top: 5%;
+    }
+    
+    .guider-image2 {
+        width: 44%;
+        height: 33%;
+        border-radius: 50%;
+        margin-top: 5%;
+    }
+    
+    .guider-image3 {
+        width: 52%;
+        height: 33%;
+        border-radius: 50%;
+        margin-top: 5%;
+    }
+    
+    .tour_content_details {
+        margin-left: 10%;
+        width: 80%;
+    }
+    
+    .t_h1 {
+        text-align: center;
+        font-size: 25px;
+        color: #15803d;
+    }
+    
+    .tour_guider {
+        margin-top: -10%;
+    }
+    
+    .p_guider_details {
+        text-align: justify;
+        color: white;
+        font-size: 14px;
+    }
+    
+    .p_guider_name {
+        text-align: center;
+        font-size: 20px;
+        text-transform: uppercase;
+        font-style: italic;
+        color: white;
+    }
+    
+    .p_guider_respons {
+        color: #f16a42;
+        font-size: 17px;
+        text-transform: capitalize;
+    }
+    
+    @media screen and (max-width: 641px) {
+        .hotel_beach_content {
+            width: fit-content;
+            height: fit-content;
+        }
+        .hotel_row {
+            flex-direction: column;
+            flex: 1;
+            flex-basis: content;
+        }
+        .col_img {
+            width: 100%;
+            margin: 2%;
+            height: 50%;
+            margin-top: -4%;
+        }
+        .col_details {
+            width: 100%;
+            height: 50%;
+            margin: 2%;
+        }
+        .hotel_image {
+            width: 100%;
+            margin-top: -10%;
+            margin-left: -1%;
+        }
+        .hotel_head {
+            font-size: 25px;
+            text-align: left;
+            margin-left: 3%;
+        }
+        .p_head {
+            font-size: 20px;
+            color: #15803d;
+            border: 2px solid black;
+            border-radius: 4px;
+            width: 80%;
+            padding: 3px;
+            text-transform: capitalize;
+            border-right: none;
+            text-align: center;
+        }
+        #span {
+            font-size: 20px;
+            color: white;
+            background-color: #15803d;
+            width: 30%;
+            padding-right: -3%;
+            text-transform: capitalize;
+        }
+        .p_details {
+            text-transform: capitalize;
+            text-align: justify;
+        }
+        .row_tour_guider {
+            flex-direction: column;
+            flex: 1;
+        }
+        .col_tour_guider {
+            background-color: #15803d;
+            margin: 3%;
+            width: 100%;
+            height: 45%;
+            text-align: center;
+        }
+        .guider-image1 {
+            width: 35%;
+            height: 20%;
+            border-radius: 50%;
+            margin-top: 5%;
+        }
+        .guider-image2 {
+            width: 44%;
+            height: 33%;
+            border-radius: 50%;
+            margin-top: 5%;
+        }
+        .guider-image3 {
+            width: 52%;
+            height: 33%;
+            border-radius: 50%;
+            margin-top: 5%;
+        }
+        .tour_content_details {
+            margin-left: 10%;
+            width: 80%;
+        }
+        .t_h1 {
+            text-align: center;
+            font-size: 25px;
+            color: #15803d;
+        }
+        .tour_guider {
+            margin-top: -46%;
+        }
+        .p_guider_details {
+            text-align: justify;
+            color: white;
+            font-size: 14px;
+        }
+        .p_guider_name {
+            text-align: center;
+            font-size: 20px;
+            text-transform: uppercase;
+            font-style: italic;
+            color: white;
+        }
+        .p_guider_respons {
+            color: #f16a42;
+            font-size: 17px;
+            text-transform: capitalize;
+        }
+    }
