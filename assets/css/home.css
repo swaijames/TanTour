@@ -217,7 +217,9 @@ input[type=submit] {
 
 .row-card {
     display: flex;
-    margin-left: 4%;
+    flex-grow: 3;
+    justify-content: space-around;
+    margin-left: -1%;
     margin-top: 4%;
 }
 
@@ -260,6 +262,7 @@ input[type=submit] {
 
 .descrtour {
     color: white;
+    text-align: justify;
 }
 
 .arrow_icon {
@@ -326,84 +329,6 @@ input[type=submit] {
 
 .column-dest {
     margin: 3%;
-}
-
-footer {
-    background-color: #15803d;
-    padding: 7%;
-}
-
-.rowfooter {
-    display: flex;
-    flex-direction: row;
-    margin-top: -5%;
-    justify-content: space-between;
-}
-
-.aboutcol {
-    width: 30%;
-}
-
-.tourcol {
-    width: 30%;
-    text-align: center;
-}
-
-.contactuscol {
-    width: 30%;
-}
-
-.aboutus_h {
-    font-size: 22px;
-    color: #dcfce7;
-    font-weight: bolder;
-}
-
-.contactus_p {
-    font-size: 15px;
-    font-weight: bolder;
-    color: #dcfce7;
-    margin-left: 20%;
-}
-
-.aboutus_p {
-    font-size: 15px;
-    font-weight: bolder;
-    color: #dcfce7;
-}
-
-.contactus_h {
-    text-align: center;
-    font-size: 22px;
-    color: #dcfce7;
-    font-weight: bolder;
-}
-
-.footer_image {
-    border-radius: 5%;
-    margin-left: 25%;
-}
-
-.footericon {
-    font-size: 22px;
-    color: #dcfce7;
-    font-weight: bolder;
-}
-
-.logo_footer {
-    width: 40%;
-    margin-top: 15%;
-}
-
-.img_footer {
-    width: 80%;
-}
-
-.bottom {
-    font-size: 15px;
-    color: #dcfce7;
-    font-weight: bolder;
-    text-align: center;
 }
 
 @media screen and (max-width: 641px) {
@@ -952,6 +877,7 @@ footer {
         margin-left: 2%;
     }
     .card {
+        width: 300px;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
         height: 105%;
         margin: 2px;
@@ -962,7 +888,9 @@ footer {
         padding: 10px;
     }
     .teamimg {
-        height: 50%;
+        width: 100%;
+        height: auto;
+        display: block;
         border-radius: 4px;
     }
     .tourdescr {

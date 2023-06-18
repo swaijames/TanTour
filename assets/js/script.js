@@ -1,19 +1,33 @@
-function toggleCollapse(collapseNum) {
-    var content = document.getElementById('collapse-content-' + collapseNum);
-    content.classList.toggle('show');
-  }
-var slides = document.getElementsByClassName('slide');
-var currentSlideIndex = 0;
+var acc = document.getElementsByClassName("accordion");
+var i;
 
-// Show the first slide
-slides[currentSlideIndex].classList.add('active');
-
-// Function to switch to the next slide
-function nextSlide() {
-  slides[currentSlideIndex].classList.remove('active');
-  currentSlideIndex = (currentSlideIndex + 1) % slides.length;
-  slides[currentSlideIndex].classList.add('active');
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  });
 }
+let slideIndex = 0;
+showSlides();
 
-// Automatically switch to the next slide every 3 seconds
-setInterval(nextSlide, 3000);
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
