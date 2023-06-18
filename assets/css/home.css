@@ -225,8 +225,11 @@ input[type=submit] {
 
 .row-card-dest {
     display: flex;
+    justify-content: space-around;
     margin-left: 4%;
     margin-top: 4%;
+    margin-bottom: 5%;
+    flex-wrap: wrap;
 }
 
 .container-card::after,
@@ -320,15 +323,36 @@ input[type=submit] {
     border-radius: 5%;
 }
 
-.destimg:hover {
-    -webkit-transform: scale(1.3);
-    transform: scale(1.3);
-    -webkit-transition: .3s ease-in-out;
-    transition: .3s ease-in-out;
-}
+
+/* .destimg:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    -webkit-transition: .2s ease-in-out;
+    transition: .2s ease-in-out;
+} */
 
 .column-dest {
-    margin: 3%;
+    position: relative;
+    width: 20%;
+    height: 20%;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    color: #f1f1f1;
+    width: 100%;
+    transition: .5s ease;
+    opacity: 0;
+    color: white;
+    font-size: 40px;
+    font-weight: bolder;
+    padding: 10px;
+    text-align: left;
+}
+
+.column-dest:hover .overlay {
+    opacity: 1;
 }
 
 @media screen and (max-width: 641px) {
