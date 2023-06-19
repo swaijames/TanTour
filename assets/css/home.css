@@ -643,12 +643,6 @@ input[type=submit] {
         width: 100%;
         border-radius: 5%;
     }
-    .destimg:hover {
-        -webkit-transform: scale(1.3);
-        transform: scale(1.3);
-        -webkit-transition: .3s ease-in-out;
-        transition: .3s ease-in-out;
-    }
     .column-dest {
         margin: 3%;
     }
