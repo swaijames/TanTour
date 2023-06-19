@@ -425,7 +425,7 @@ input[type=submit] {
         background-color: #dcfce7;
         padding: 17%;
         margin-left: -14%;
-        margin-top: 19%;
+        margin-top: 25%;
     }
     .h3 {
         font-size: 2rem;
@@ -649,6 +649,7 @@ input[type=submit] {
     footer {
         background-color: #15803d;
         padding: 7%;
+        width: 100%;
     }
     .rowfooter {
         display: flex;
