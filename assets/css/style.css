@@ -168,9 +168,6 @@ footer {
 }
 
 @media screen and (max-width: 650px) {
-    .body {
-        over
-    }
     /* smartphones, iPhone, portrait 480x320 phones */
     .row,
     .rowtype {
