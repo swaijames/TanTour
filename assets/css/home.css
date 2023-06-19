@@ -373,7 +373,7 @@ input[type=submit] {
         text-align: center;
     }
     #myVideo {
-        width: 105%;
+        width: 110%;
         height: 85vh;
         object-fit: cover;
         /* opacity: 50%; */
@@ -387,7 +387,7 @@ input[type=submit] {
     }
     .view-tour {
         color: #15803d;
-        padding-top: 15px;
+        padding-top: 10px;
         padding-bottom: 15px;
         padding-left: 65px;
         padding-right: 65px;
